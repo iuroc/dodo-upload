@@ -2,6 +2,9 @@
 
 > DoDo 文件上传获取文件直链工具
 
+![image](https://github.com/iuroc/dodo-upload/assets/61752998/b15869de-a0c9-4cb5-ada1-aa5395cbdc28)
+
+
 ## 终端使用
 
 1. 安装 Node.js
