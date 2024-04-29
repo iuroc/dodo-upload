@@ -1,0 +1,40 @@
+{
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc -w",
+        "start": "node js/main.js"
+    },
+    "dependencies": {
+        "crypto-js": "^4.2.0",
+        "node-fetch": "^2.7.0"
+    },
+    "devDependencies": {
+        "@types/crypto-js": "^4.2.2",
+        "@types/form-data": "^2.5.0",
+        "@types/node": "^20.12.7",
+        "@types/node-fetch": "^2.6.11",
+        "typescript": "^5.4.5"
+    },
+    "types": "src/dodoYoload.ts",
+    "name": "dodo-upload",
+    "version": "1.0.2",
+    "description": "DoDo 文件上传获取直链工具",
+    "main": "js/dodoUpload.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iuroc/dodo-upload.git"
+    },
+    "keywords": [
+        "download",
+        "dodo",
+        "hmacsha1",
+        "tool",
+        "cli"
+    ],
+    "author": "iuroc",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/iuroc/dodo-upload/issues"
+    },
+    "homepage": "https://github.com/iuroc/dodo-upload#readme"
+}

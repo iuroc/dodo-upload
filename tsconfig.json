@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "js",
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "target": "ESNext"
+    }
+}
