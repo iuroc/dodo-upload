@@ -17,7 +17,7 @@
     },
     "types": "src/dodoYoload.ts",
     "name": "dodo-upload",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "DoDo 文件上传获取直链工具",
     "main": "js/dodoUpload.js",
     "repository": {
