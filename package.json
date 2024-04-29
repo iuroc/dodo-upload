@@ -6,6 +6,7 @@
     },
     "dependencies": {
         "crypto-js": "^4.2.0",
+        "form-data": "^4.0.0",
         "node-fetch": "^2.7.0"
     },
     "devDependencies": {
@@ -17,7 +18,7 @@
     },
     "types": "src/dodoYoload.ts",
     "name": "dodo-upload",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "DoDo 文件上传获取直链工具",
     "main": "js/dodoUpload.js",
     "repository": {
