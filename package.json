@@ -16,9 +16,9 @@
         "@types/node-fetch": "^2.6.11",
         "typescript": "^5.4.5"
     },
-    "types": "src/dodoYoload.ts",
+    "types": "src/dodoUpload.ts",
     "name": "dodo-upload",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "DoDo 文件上传获取直链工具",
     "main": "js/dodoUpload.js",
     "repository": {
