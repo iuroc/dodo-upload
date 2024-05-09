@@ -21,9 +21,9 @@ ${'-'.repeat(48)}\n`)
     if (!uid) throw new Error('uid 不能为空')
     while (true) {
         console.log('\n' + '-'.repeat(48))
-        const filePath = await rl.question('请输入文件路径: ')
-        if (!filePath) throw new Error('filePath 不能为空')
-        const result = await DodoUpload.run(filePath, token, uid)
+        const filePathMatch = await rl.question('请输入文件路径: ').then(i => i.match(/^['"]?(.*?)['"]?$/))
+        if (!filePathMatch) throw new Error('filePath 不能为空')
+        const result = await DodoUpload.run(filePathMatch[1].trim(), token, uid)
         console.log(`
 🎉 文件上传成功
 👉 文件名称：${result.filename}
