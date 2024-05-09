@@ -13,7 +13,7 @@ const rl = (0, promises_1.createInterface)({
 const main = async () => {
     console.log(`>>> DoDo 文件上传获取文件直链工具 <<<
 ${'-'.repeat(48)}
-1. 请登录 DoDo 网页版
+1. 请登录 DoDo 网页版 https://www.imdodo.com/
 2. 通过 localStorage.getItem('token') 获取 token
 3. 通过 localStorage.getItem('uid') 获取 uid
 4. 根据下方提示输入内容
